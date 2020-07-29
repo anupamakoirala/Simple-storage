@@ -1,0 +1,15 @@
+.Title {
+  text-align: center;
+  padding-left: 50;
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* .Preview {
+  text-emphasis-color: blue;
+  text-align: center;
+} */
+.Preview {
+  font-size: medium;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

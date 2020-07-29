@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Layout.css";
 function Form() {
   return (
     <div className="Title">
@@ -12,7 +13,7 @@ function Form() {
           {" "}
           Stores your content in the <strong> BlockChain </strong>
         </p>
-        <form>
+        <form name>
           <label>
             {" "}
             Input:
@@ -20,7 +21,7 @@ function Form() {
           </label>
           <input type="submit" value="Submit" />
         </form>
-        <button variant="outline-primary" type="button">
+        <button name="button" variant="outline-primary" type="button">
           GetData
         </button>
       </div>
