@@ -37,8 +37,8 @@ class App extends Component {
   };
   runExample = async () => {
     const { accounts, contract } = this.state;
-    const [text, settext] = useState(0);
-    const [gettext, setgettext] = useState("0x00");
+    // const [text, settext] = useState(0);
+    // const [gettext, setgettext] = useState("0x00");
 
     const handleGet = async (e) => {
       e.preventDefault();
